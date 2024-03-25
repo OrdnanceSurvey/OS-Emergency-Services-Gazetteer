@@ -176,7 +176,6 @@ def createCSV():
 						abtype = row[0]
 						if "10" in abtype:
 							write10.writerow(row)
-							print(row)
 							counter10 += 1
 						elif "21" in abtype:
 							write21.writerow(row)
