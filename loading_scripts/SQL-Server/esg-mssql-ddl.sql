@@ -41,7 +41,7 @@ CREATE TABLE lpi (
 	sao_start_suffix nvarchar(2),
 	sao_end_number smallint,
 	sao_end_suffix nvarchar(2),
-	sao_text nvarchar(90),
+	sao_text nvarchar(400),
 	pao_start_number smallint,
 	pao_start_suffix nvarchar(2),
 	pao_end_number smallint,
@@ -49,7 +49,7 @@ CREATE TABLE lpi (
 	pao_text nvarchar(90),
 	usrn integer,
 	usrn_match_indicator nvarchar(1),
-	area_name nvarchar(35),
+	area_name nvarchar(100),
 	"level" nvarchar(30),
 	official_flag nvarchar(1)
 );
